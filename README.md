@@ -8,7 +8,7 @@ matplotlib.
 takes input from standard in. input should be a 
 number of lines where each line has the format
 
-> <DECIMAL NUMBER>, <DECIMAL NUMBER>, <DECIMAL NUMBER>
+> \<DECIMAL NUMBER\>, \<DECIMAL NUMBER\>, \<DECIMAL NUMBER\>
 
 the three numbers will be interpreted as the x, y and z
 coordinates respectively of a point in 3d space. Each 
@@ -19,11 +19,12 @@ from the official matplotlib website.
 
 As an example; the following input,
 
-> 1, 2, 3
-> 4, 5, 6
+> 1, 2, 3 \
+> 4, 5, 6 \
 > 7, 8, 9
 
 gives a graph that looks like
+
 ![example output of 3d_scatter.py](example_images/3d_scatter_example.png)
 
 
